@@ -16,7 +16,7 @@ if (a > 0)
   alert(true)
 
 else if (a < 0)
-  alert(false )
+  alert(false)
 
 else
   alert(false)
