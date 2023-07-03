@@ -1,10 +1,22 @@
-const result = +prompt('Введите число', '')
-if (typeof +result !== 'number') {
-  alert('Упс, кажется, вы ошиблись')
-} else if (isNaN(result % 2)) {
-  alert('Ошибка')
-} else if (result % 2 === 0) {
-  alert('Число четное')
-} else {
-  alert('число нечетное')
+let a = prompt ("Введите число");
+a = +a;
+alert (typeof a);
+
+if (a % 2 === 0) {
+  alert ("Чётное");
 }
+else if (a%1 ===0) {
+  alert ("Нечётное");
+}
+else {
+  alert("Упс, кажется вы ошиблись")
+}
+
+if (a > 0)
+ alert(true)
+
+else if (a < 0)
+  alert(false )
+
+else
+  alert(false)
